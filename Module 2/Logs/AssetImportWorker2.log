@@ -1,0 +1,1129 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 14226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\Editors\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Users/mykhe/OneDrive/Documents/GAMENET/Module 2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62684
+Successfully changed project path to: D:/Users/mykhe/OneDrive/Documents/GAMENET/Module 2
+D:/Users/mykhe/OneDrive/Documents/GAMENET/Module 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23952] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3685131377 [EditorId] 3685131377 [Version] 1048832 [Id] WindowsEditor(7,Diane) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23952] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3685131377 [EditorId] 3685131377 [Version] 1048832 [Id] WindowsEditor(7,Diane) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 26.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/mykhe/OneDrive/Documents/GAMENET/Module 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/Editors/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022653 seconds.
+- Loaded All Assemblies, in  0.385 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 248 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.521 seconds
+Domain Reload Profiling: 900ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (521ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (348ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 13.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (440ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 16.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3715 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (66.1 KB). Loaded Objects now: 4171.
+Memory consumption went from 170.3 MB to 170.3 MB.
+Total: 3.545000 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.203200 ms MarkObjects: 2.981700 ms  DeleteObjects: 0.129600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83926.587177 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse.png
+  artifactKey: Guid(d5b27df9f2529d747abf386b90982bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse.png using Guid(d5b27df9f2529d747abf386b90982bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86154d2a271cd4f7a73ad539145fb261') in 0.009653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.581900 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_normal.png
+  artifactKey: Guid(06308abb90d92f34098ee6be2543e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_normal.png using Guid(06308abb90d92f34098ee6be2543e704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b5fc6cc6df6c9bd89671f197f9c718') in 0.001203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.221590 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_specular.png
+  artifactKey: Guid(aa2cd032dd31cd64a92402548ec526a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_specular.png using Guid(aa2cd032dd31cd64a92402548ec526a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd9cb956d0fbfe7113c806de947a36a') in 0.001296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.316346 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_diffuse.png
+  artifactKey: Guid(5f5f0122806fd14418eeb9dc2917f728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_diffuse.png using Guid(5f5f0122806fd14418eeb9dc2917f728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bb94b1d7281ddeb685d9e3257b7ce6') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.798418 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_normal.png
+  artifactKey: Guid(c5063e2388c878940805e44795f977de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_normal.png using Guid(c5063e2388c878940805e44795f977de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112f1a7441b893e327e02e392833c94e') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.437287 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_specular.png
+  artifactKey: Guid(a7f4e457860c70445adb4676c55b1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_specular.png using Guid(a7f4e457860c70445adb4676c55b1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf826c8c146ac008409c80c225d51db1') in 0.001789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 143.974488 seconds.
+  path: Assets/Swat Models and Animations/Soldier/FPS_Character_prefab.prefab
+  artifactKey: Guid(8780b6c422fafec438562c9435f434b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Soldier/FPS_Character_prefab.prefab using Guid(8780b6c422fafec438562c9435f434b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886e3140044dfb41c42ece668eb22880') in 0.080670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 20.944098 seconds.
+  path: Assets/Swat Models and Animations/SWAT Folders and Animations/walk right.fbx
+  artifactKey: Guid(abf580c90b5015144b85852b93e873ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/SWAT Folders and Animations/walk right.fbx using Guid(abf580c90b5015144b85852b93e873ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec136404e7a6a8c1e5d1f273611491') in 0.004515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 168.105414 seconds.
+  path: Assets/Swat Models and Animations/Soldier/FPS_Character_prefab.prefab
+  artifactKey: Guid(8780b6c422fafec438562c9435f434b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Soldier/FPS_Character_prefab.prefab using Guid(8780b6c422fafec438562c9435f434b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edebef13f17193cdc44ee1be268aa033') in 0.013949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 12.575162 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun
+  artifactKey: Guid(2df62e867dae5b6479ccecb0221325b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun using Guid(2df62e867dae5b6479ccecb0221325b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918c27fef9e3a9df35a302aeca9a7a13') in 0.000553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.038198 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47
+  artifactKey: Guid(8148c5eb7b62616498227afe14b2ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47 using Guid(8148c5eb7b62616498227afe14b2ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61034c55a6777a517c3288d2feac612f') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.113230 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/AK-47.fbx
+  artifactKey: Guid(3873640059afd21489872c6806db57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/AK-47.fbx using Guid(3873640059afd21489872c6806db57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52525b08cbdf4464bc2305446299944d') in 0.050543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.112144 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Materials
+  artifactKey: Guid(bf03feac2b3c05145a247c56e36b8130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Materials using Guid(bf03feac2b3c05145a247c56e36b8130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c881314a66e41c6c567dae4bdf742ed9') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075934 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Materials/Ak-47_Albedo.mat
+  artifactKey: Guid(3603dc017fb2b9348b07e0fb7a3c5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Materials/Ak-47_Albedo.mat using Guid(3603dc017fb2b9348b07e0fb7a3c5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3e43c4d5c36895b7ff66286eae94a2') in 0.006990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 621.599247 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/Ak-47_Metallic.tga
+  artifactKey: Guid(2c84e087f91f83345b3cf1dd804ba99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/Ak-47_Metallic.tga using Guid(2c84e087f91f83345b3cf1dd804ba99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337a3c2dbc5e392f11a7c044df2d6a45') in 0.064067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.840884 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle/L96_Sniper_Rifle.fbx
+  artifactKey: Guid(048fb1e42ee3d234f8b8ec2452b300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle/L96_Sniper_Rifle.fbx using Guid(048fb1e42ee3d234f8b8ec2452b300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6806b684298c32c1953558da9cf93041') in 0.015573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 12.580262 seconds.
+  path: Assets/Swat Models and Animations/SWAT Folders and Animations/Swat.fbx
+  artifactKey: Guid(2bbea1602a55a39419ce4333a9662acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/SWAT Folders and Animations/Swat.fbx using Guid(2bbea1602a55a39419ce4333a9662acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607ee8569b3d51e5432590c709183635') in 0.136587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 3.822953 seconds.
+  path: Assets/Swat Models and Animations/SWAT Folders and Animations/Swat.fbx
+  artifactKey: Guid(2bbea1602a55a39419ce4333a9662acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/SWAT Folders and Animations/Swat.fbx using Guid(2bbea1602a55a39419ce4333a9662acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfa3dec5cc96e0f2333c3cffbb2df50') in 0.033324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 9.589522 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse 1.png
+  artifactKey: Guid(ed2bb21f32245154bb3d7119e067018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse 1.png using Guid(ed2bb21f32245154bb3d7119e067018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04891d97cb211fc6c3491536471ba476') in 0.031077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_specular 1.png
+  artifactKey: Guid(e2730521bed3596418712ab6b180d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_specular 1.png using Guid(e2730521bed3596418712ab6b180d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58cbaf61525856363960731b67375c9') in 0.028702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_specular 1.png
+  artifactKey: Guid(1515ba30d51ac01448dfc69de380bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_specular 1.png using Guid(1515ba30d51ac01448dfc69de380bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b120c26e23fbb721b67ff05ea1dddc84') in 0.025080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.698232 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse.png
+  artifactKey: Guid(ed2bb21f32245154bb3d7119e067018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_diffuse.png using Guid(ed2bb21f32245154bb3d7119e067018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077b7a2c13dc923e9520275ea141a5f') in 0.023140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.002254 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_normal.png
+  artifactKey: Guid(b6fdac7c72fd1a84fb390ad8b8c6549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_normal.png using Guid(b6fdac7c72fd1a84fb390ad8b8c6549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1686cd324edc434a79a29f300aba4925') in 0.027657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.604766 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_Body_specular.png
+  artifactKey: Guid(1515ba30d51ac01448dfc69de380bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_Body_specular.png using Guid(1515ba30d51ac01448dfc69de380bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658dd56153c760bf5e405f3c05802873') in 0.023772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.746352 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_diffuse.png
+  artifactKey: Guid(47c56e1d84038124f838b9803e502903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_diffuse.png using Guid(47c56e1d84038124f838b9803e502903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a214135967f6c0969c8116054cd2d9') in 0.022454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.613715 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_normal.png
+  artifactKey: Guid(8f200d851cf4ba94aa29ec082d4bcc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_normal.png using Guid(8f200d851cf4ba94aa29ec082d4bcc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6bc07477af60f41047486cd4dd5134') in 0.022947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.543290 seconds.
+  path: Assets/Swat Models and Animations/Textures/Soldier_head_specular.png
+  artifactKey: Guid(e2730521bed3596418712ab6b180d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/Textures/Soldier_head_specular.png using Guid(e2730521bed3596418712ab6b180d597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601aad1872e26dc222afc5079bf39bfa') in 0.024129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 19.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.331 seconds
+Domain Reload Profiling: 2001ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (473ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 16.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (40.0 KB). Loaded Objects now: 4223.
+Memory consumption went from 152.3 MB to 152.3 MB.
+Total: 3.034200 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.277600 ms MarkObjects: 2.444300 ms  DeleteObjects: 0.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.344763 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/README.txt
+  artifactKey: Guid(9c4a109019f69b048be9e34748b51691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/README.txt using Guid(9c4a109019f69b048be9e34748b51691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5a9dc4892f9dda113734474e1a2ddb') in 0.015286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 120.411744 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/Pistol
+  artifactKey: Guid(0cb73e729fb26e6499bf9c7a38aefd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/Pistol using Guid(0cb73e729fb26e6499bf9c7a38aefd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e210e39ed746a6b6fbd1da7d10249c6d') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.203993 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/modern-weapons
+  artifactKey: Guid(24b0ac5c8d20d3242bb22567838c48e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/modern-weapons using Guid(24b0ac5c8d20d3242bb22567838c48e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e536be1e1b9ac713f4b1d9fcfd2d4922') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.585028 seconds.
+  path: Assets/Resources/PlayerPrefab.prefab
+  artifactKey: Guid(e71cb3dda656e384db754883a2d4ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerPrefab.prefab using Guid(e71cb3dda656e384db754883a2d4ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519b59e9674c6f62338206427dfe64e4') in 0.299254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 617
+========================================================================
+Received Import Request.
+  Time since last request: 65.093914 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun
+  artifactKey: Guid(2df62e867dae5b6479ccecb0221325b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun using Guid(2df62e867dae5b6479ccecb0221325b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5ca401b02bcb787d56e6b906a05897') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090674 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun/870_Shotgun.fbx
+  artifactKey: Guid(10eaf7985639368489bfbdf006dee88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun/870_Shotgun.fbx using Guid(10eaf7985639368489bfbdf006dee88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32284e77fb8549acfd579ce2e911d9a') in 0.031939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.018301 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures
+  artifactKey: Guid(e7c21455b3cb19f4e82aad447c2f0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures using Guid(e7c21455b3cb19f4e82aad447c2f0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786939829d64f11a38f9f5deb524bc1b') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.942511 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47
+  artifactKey: Guid(8148c5eb7b62616498227afe14b2ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47 using Guid(8148c5eb7b62616498227afe14b2ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cacacf5a3d2138f0bada86d820e5d0') in 0.000622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071882 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/AK-47.fbx
+  artifactKey: Guid(3873640059afd21489872c6806db57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/AK-47.fbx using Guid(3873640059afd21489872c6806db57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89961e4b628ddffdc692d61e4e2b9c89') in 0.012712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.081170 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle
+  artifactKey: Guid(9e02034815914d44dbe796e3fee731d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle using Guid(9e02034815914d44dbe796e3fee731d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab17cd03ea2e04df5a904a40818104f9') in 0.000564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.309254 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/Extra
+  artifactKey: Guid(a1c53632814b1e54d933788c987498a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/Extra using Guid(a1c53632814b1e54d933788c987498a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43209f9ef8fe03bb2be4d82ec21d4e78') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071648 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/Extra/ScopeOverlay.png
+  artifactKey: Guid(38218a4cee08d7348bbb32870b6247cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/Extra/ScopeOverlay.png using Guid(38218a4cee08d7348bbb32870b6247cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aebf8f4420e4850266cf44e478d3b7') in 0.028691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.490225 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle/L96_Sniper_Rifle.fbx
+  artifactKey: Guid(048fb1e42ee3d234f8b8ec2452b300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/L96 Sniper Rifle/L96_Sniper_Rifle.fbx using Guid(048fb1e42ee3d234f8b8ec2452b300b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9230965d4218c3dbf34e94ac686189a1') in 0.012138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 53.785728 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Textures
+  artifactKey: Guid(4f52b74d684608842be2611ee1a5eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Textures using Guid(4f52b74d684608842be2611ee1a5eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe65c40d26f0996ce29383c861d032d') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071492 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/Ak-47_Albedo.png
+  artifactKey: Guid(0c9522d14449d1244907000f19f8cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/Ak-47_Albedo.png using Guid(0c9522d14449d1244907000f19f8cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7578d711ebe5c78966c27c0b22edab05') in 0.024974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/AK-47_Normal.png
+  artifactKey: Guid(bf55b3c2bc6138040805ab627794ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Textures/AK-47_Normal.png using Guid(bf55b3c2bc6138040805ab627794ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fca28da25cdd876afc6084115ec781a') in 0.023595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.355698 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/AK-47/Materials/Ak-47_Albedo.mat
+  artifactKey: Guid(3603dc017fb2b9348b07e0fb7a3c5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/AK-47/Materials/Ak-47_Albedo.mat using Guid(3603dc017fb2b9348b07e0fb7a3c5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209441825ad237e4d5bca4525ca17f6b') in 0.009371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.894159 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png
+  artifactKey: Guid(753086d792ab51842936b33dca592dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures/870_Shotgun_Albedo.png using Guid(753086d792ab51842936b33dca592dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d222a1d84317fc55cdf00c62f4b3b0') in 0.025129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures/870_Shotgun_Normal.png
+  artifactKey: Guid(f93a9b224fb4bcc41b96fe5e6fd3ee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/870 Shotgun/Textures/870_Shotgun_Normal.png using Guid(f93a9b224fb4bcc41b96fe5e6fd3ee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db6bb8f99dcf8d703b24ed4d5045848') in 0.024928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.442290 seconds.
+  path: Assets/Resources/PlayerPrefab.prefab
+  artifactKey: Guid(e71cb3dda656e384db754883a2d4ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/PlayerPrefab.prefab using Guid(e71cb3dda656e384db754883a2d4ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5e351fb4b83a801e51a80d75173e0') in 0.077948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 626
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.763 seconds
+Refreshing native plugins compatible for Editor in 17.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.729 seconds
+Domain Reload Profiling: 2479ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (86ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 17.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (41.6 KB). Loaded Objects now: 4229.
+Memory consumption went from 154.5 MB to 154.4 MB.
+Total: 3.522300 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.190800 ms MarkObjects: 2.908900 ms  DeleteObjects: 0.157900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.210562 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/Pistol/Pistol.fbx
+  artifactKey: Guid(def8c875faf73e74eac2112108307685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/Pistol/Pistol.fbx using Guid(def8c875faf73e74eac2112108307685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56990e6a0ba47e3b068e1aaede9c3818') in 0.089668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.416703 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/M4 Carbine/M4_Carbine.fbx
+  artifactKey: Guid(6abad7d96d3b5a248b285af608518b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/M4 Carbine/M4_Carbine.fbx using Guid(6abad7d96d3b5a248b285af608518b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8074ecc61ed867b3cdcf2f6dd0f061a') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 42.508857 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures
+  artifactKey: Guid(272510f45ed082c439cf3dce8cbf76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures using Guid(272510f45ed082c439cf3dce8cbf76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55b4f0d71028f97e078b431cf9081db') in 0.000649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053250 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures/M4_Albedo.png
+  artifactKey: Guid(1ec9387ad23272d40bd5de246ba1c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures/M4_Albedo.png using Guid(1ec9387ad23272d40bd5de246ba1c91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d88d2688a3008222c694254df5341c') in 0.033895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures/M4_Normal.png
+  artifactKey: Guid(567d7ff361d66684d86e004715e10e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat Models and Animations/modern-weapons/M4 Carbine/Textures/M4_Normal.png using Guid(567d7ff361d66684d86e004715e10e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa2df0553aee93d8f0124c40cf463a') in 0.026993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.782 seconds
+Refreshing native plugins compatible for Editor in 19.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.470 seconds
+Domain Reload Profiling: 2236ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (580ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 19.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (40.9 KB). Loaded Objects now: 4233.
+Memory consumption went from 156.4 MB to 156.3 MB.
+Total: 3.681900 ms (FindLiveObjects: 0.454200 ms CreateObjectMapping: 0.241100 ms MarkObjects: 2.918000 ms  DeleteObjects: 0.067500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.344405 seconds.
+  path: Assets/Resources/Swat Variant.prefab
+  artifactKey: Guid(ecc233bb8632b3241803a84fe2d07475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Swat Variant.prefab using Guid(ecc233bb8632b3241803a84fe2d07475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09674ad00b9271cfe8b2283297a9e9d') in 0.081099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 327
+========================================================================
+Received Import Request.
+  Time since last request: 7.727029 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png
+  artifactKey: Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/DropDown Arrow.png using Guid(936345f7fc3934efa8119a8700d904c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b906fc224ed5eeb3519837238d2c96') in 0.046392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/Files/PunIcon-White-129.png
+  artifactKey: Guid(37b0a18b391c6ae468b5bcc74bba2c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/Files/PunIcon-White-129.png using Guid(37b0a18b391c6ae468b5bcc74bba2c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a1a071aa91c9d185299e428ed90bbb') in 0.032884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/Files/OutlinedSquaredBox.png
+  artifactKey: Guid(ea7134547a5488b41a6bb5243b4ec2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/Files/OutlinedSquaredBox.png using Guid(ea7134547a5488b41a6bb5243b4ec2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac698e8c9efdb9199ff7cbf6495c591') in 0.028733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
+  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f59e550a9a5c1e826ef73c128357bda') in 0.030347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png
+  artifactKey: Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/OutlinedSquaredBox.png using Guid(c222cd02c447941edb09ecb6433229ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf8f5e72b93e7e1e5e3338e979a5cb') in 0.028452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.884816 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
+  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb7a6858c9ccb1d183a635222648c0b') in 0.028430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 17.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.229 seconds
+Domain Reload Profiling: 1998ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (577ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1229ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 15.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (40.0 KB). Loaded Objects now: 4241.
+Memory consumption went from 158.3 MB to 158.3 MB.
+Total: 2.661800 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.209500 ms MarkObjects: 2.136600 ms  DeleteObjects: 0.062300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 18.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.360 seconds
+Domain Reload Profiling: 2115ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1360ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 17.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (39.9 KB). Loaded Objects now: 4245.
+Memory consumption went from 160.5 MB to 160.4 MB.
+Total: 3.128400 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.218700 ms MarkObjects: 2.564000 ms  DeleteObjects: 0.076300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288.974878 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d02e31883f54520edb22242e6ad1807') in 0.079533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+  artifactKey: Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab using Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61366a7028fe1844de94056eafe7511d') in 0.045407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+  artifactKey: Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab using Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5c0c3d9963789a0976089a4e70e46') in 0.013386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+  artifactKey: Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab using Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c266a25452f90bf5217f52d265434db') in 0.023987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+  artifactKey: Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab using Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3dbc00840f2132ab9d4f4fa40007a3') in 0.010625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+  artifactKey: Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab using Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1c49d8c9da62e9fc5f8e7baf72d135') in 0.016581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 20.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.303 seconds
+Domain Reload Profiling: 2056ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (560ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 17.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (40.9 KB). Loaded Objects now: 4251.
+Memory consumption went from 162.3 MB to 162.2 MB.
+Total: 2.528700 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.064900 ms  DeleteObjects: 0.078200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
